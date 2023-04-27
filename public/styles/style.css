@@ -1,0 +1,145 @@
+.bg-custom {
+    background-color:rgb(0, 0, 0);
+ }
+ body{
+   background-color: #000000;
+ }
+ .text-custom {
+      background: linear-gradient(90 deg, #ff0000, #ffff00, #ff00f3, #0033ff, #ff00c4, #ff0000 );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: animate 10s linear infinite;
+ }
+ @keyframes animate{
+   0%{
+      background-position: 0%;
+   }
+   100%{
+      background-position: 0%;
+   }
+ }
+ 
+ #coloring {
+ 
+   background-color: #000000;
+ }
+ 
+ .text-brown {
+    color: #ffffff;
+ }
+ 
+ 
+ a.nav-link {
+    color: white;
+    font-weight: 600;
+    background-color: black;
+ }
+ 
+ #navbar-icons span {
+    margin-left: 1em;
+    margin-right: 1em;
+ }
+ 
+ .background-image {
+    padding-top: 5em;
+    height: 700px;
+    background-image: url("../img/aboutbanner-1647596418201.webp");
+    background-size: cover;
+    
+ }
+ 
+ #schools{
+    padding-top: 2em;
+    padding-bottom: 7em;
+    background-color: #000000;
+    
+    
+ }
+ 
+ #icons img {
+    height: 100px;
+ }
+ 
+ #about {
+    height: 400px;
+    margin-top: 10px;
+    padding-left: 2em;
+ 
+ }
+ 
+ #educ{
+   --gradiant: linear-gradient(
+       45deg,
+       #ff0000,
+       #ffff00,
+       #ff00f3,
+       #0033ff,
+       #ff00c4,
+       #ff0000
+   ); 
+   font-size: 3.7em;
+   padding: 20px;
+   background-image: var(--gradiant);
+   background-size: 300%;
+   -webkit-background-clip: text;
+   -moz-background-clip: text;
+   -o-background-clip: text;
+   -ms-background-clip: text;
+   background-clip: text;
+   color: transparent;
+   -webkit-animation:  gradiant-animation 5s ease-in-out alternate infinite;
+   animation: gradiant-animation 5s ease-in-out alternate infinite;
+ }
+ @keyframes gradiant-animation {
+    0%{background-position: left;}
+    100%{background-position: right;}
+ }
+ @-webkit-keyframes gradiant-animation {
+    0%{background-position: left;}
+    00%{background-position: right;}
+ }
+ 
+ #nav {
+    background-color:  black;
+    border: 5px solid red;
+    border-radius: 10px;
+    border-width: 5px;
+  }
+ 
+ .read{
+    color: white;
+  }
+  
+ .butts{
+    --gradiant: linear-gradient(
+        45deg,
+        #ff0000,
+        #ffff00,
+        #ff00f3,
+        #0033ff,
+        #ff00c4,
+        #ff0000
+    ); 
+    font-size: 3.7em;
+    padding: 20px;
+    background-image: var(--gradiant);
+    background-size: 300%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -o-background-clip: text;
+    -ms-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-animation:  gradiant-animation 5s ease-in-out alternate infinite;
+    animation: gradiant-animation 5s ease-in-out alternate infinite;
+  }
+  @keyframes gradiant-animation {
+     0%{background-position: left;}
+     100%{background-position: right;}
+  }
+  @-webkit-keyframes gradiant-animation {
+     0%{background-position: left;}
+     00%{background-position: right;}
+  }
+ 
+ 
