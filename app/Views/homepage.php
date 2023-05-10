@@ -22,10 +22,10 @@
             <div class="d-flex align-items-center mx-auto">
                <ul class="navbar-nav">
                   <li class="nav-item">
-                     <a class="nav-link fw-bold fs-4 text-center" aria-current="page" href="#" id= "nave">HOME</a>
+                     <a class="nav-link fw-bold fs-4 text-center" aria-current="page" href="/home" id= "nave">HOME</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link fw-bold fs-4 text-center" aria-current="page" href="entryform/table.php">FORM</a>
+                     <a class="nav-link fw-bold fs-4 text-center" aria-current="page" href="/contact">FORM</a>
                   </li>
                </ul>
             </div>
@@ -52,7 +52,7 @@
          </div>
       </div>
    </div>
-   <div class="text-center" id="schools">
+   <div class="text-center py-5" id="schools">
       <span class="text-custom fs-4 fw-bold px-3" id="educ">EDUCATIONAL BACKGROUND</span>
       <div class="mt-4" >
          <div class="container">
@@ -94,10 +94,11 @@
             </div>
          </div>
       </div>
+
       <div id="african-superfoods" class="bg-custom text-light">
          <div class="row py-5" style="height:400px">
             <div class="col-3">
-               <img src="/Assets/Images/valorant.gif" class=alt="" height="300" width="300" "padding-left -5">
+               <img src="/Assets/Images/valorant.gif" alt="Valorant" height="300" width="300" padding-left="-5">
             </div>
             <div class="col-3 text-start">
                <div class="fs-4 fw-bold mb-3"id="educ">Playing Games</div>
@@ -105,7 +106,7 @@
                   It gives me comfort and also give me some random friend that you can talk and play with.</p>
             </div>
             <div class="col-3 text-start">
-               <img src="/Assets/Images/tybw-yamamoto.gif" class=alt="" height="300" width="300" "padding-left -5">
+               <img src="/Assets/Images/tybw-yamamoto.gif" alt="" height="300" width="300" padding-left="-5">
             </div>
             <div class="col-3 text-start">
                <div class="fs-4 fw-bold mb-3"id="educ">Watching Anime</div>
@@ -115,28 +116,7 @@
          </div>
       </div>
    </div>
-   <div class="container-fluid text-white" id="coloring" >
-      <div class="fs-7 fw-bold"  id="educ">CONTACT ME</div>
-      <form action="insert.php" method="POST">
-         <div class="modal-body">
-            <div class="form-group">
-               <label> Email address </label>
-               <input type="email" class="form-control" name="email" aria-describedby="emailHelp">
-               <div id="emailHelp" class="form-text text-white">We'll never share your email with anyone else.</div>
-            </div>
-            <div class="form-group mb-3">
-               <label> Name </label>
-               <input type="form-text" name="name" class="form-control" id="name">
-            </div>
-            <div class="form-group mb-3">
-               <label> Comment</label>
-               <textarea type="form-text" name="comment" class="form-control" id="comment"> </textarea>
-            </div>
-         </div>
-         <button type="submit" class="btn btn-primary my-1 fs-5 fw-bold px-1 py-1" id ="educ">Submit</button>
-      </form>
-   </div>
-   </div>
+
    <div class="modal fade" id="feedback" tabindex="-1" aria-labelledby="feedbackLabel" aria-hidden="true">
       <div class="modal-dialog">
          <div class="modal-content">
@@ -155,6 +135,7 @@
       </div>
    </div>
    <script src="./scripts/script.js"></script>
+
 </body>
 
 </html>
