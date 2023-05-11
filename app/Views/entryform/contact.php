@@ -35,7 +35,7 @@
             </div>
 
                <button type="submit" class="btn btn-primary my-1 fs-5 fw-bold px-1 py-1" id ="educ">Submit</button>
-               <button type="submit" class="btn btn-primary mx-3 my-1 fs-5 fw-bold px-1 py-1" id ="educ" href="/Home">Back</button>
+               <button type="submit" class="btn btn-primary mx-3 my-1 fs-5 fw-bold px-1 py-1" id ="educ" href="Home.php">Back</button>
          </div>
       </form>
    </div>
